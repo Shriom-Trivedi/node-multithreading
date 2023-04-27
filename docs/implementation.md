@@ -13,3 +13,4 @@ We are looking for a way to execute multithreading in JavaScript.
     - 4 other responds when needed i.e when we have some IO operation (db queries, file read/write, network operations)
 
 4) none of this work for CPU bound operations.
+5) parentPort.postMessage() is the way to communicate with your main thread.
